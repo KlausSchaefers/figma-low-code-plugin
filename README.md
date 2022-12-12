@@ -1,14 +1,6 @@
-# qux-figam-plugin
+# figma-low-code-plugin
 
-
-https://github.com/thomas-lowry/figma-plugin-ds
-
-UI is built with ...
-
-* Vue.js
-* TypeScript
-* Sass
-* Bulma
+The Figma-Low-Code plugin. 
 
 ## Development Setup
 
@@ -38,3 +30,8 @@ $ npm run serve
 ```sh
 $ npm run build
 ```
+
+
+# Links
+
+https://github.com/thomas-lowry/figma-plugin-ds
