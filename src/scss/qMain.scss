@@ -1,0 +1,98 @@
+
+.qux-figma-main {
+
+}
+
+.qux-figma-buttonbar{
+    margin-top: 0.75rem;
+    display: flex;
+    padding: 0.75rem;
+
+    button {
+        margin-right: $size-xsmall;
+    }
+}
+
+
+.tab-bar {
+    padding: 0.75rem;
+    font-size: 11px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: $black3-opaque;
+    margin-bottom: $size-xxsmall;
+    padding-bottom: $size-xsmall;
+    border-bottom: 1px solid $border-secion-color;
+
+    span {
+        padding: 0 8px;
+        cursor: pointer;
+
+        &:hover {
+            color: $black8-opaque;
+        }
+    }
+
+
+    .tab-selected {
+        font-weight: 600;
+        color: $black8-opaque;
+    }
+}
+.tab-bar-dark {
+    background-color: $hud;
+    color: $white;
+
+    span:hover {
+        color: $white;
+    }
+
+    .tab-selected {
+        color: $blue;
+    }
+}
+
+.tab-content-cntr {
+    height: 520px;
+    overflow: auto;
+}
+
+
+.section {
+    padding: 0.25rem 0.75rem;
+    margin-bottom: $size-xxsmall;
+}
+
+.section-header {
+    padding: 0 $size-xxsmall;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: $black8-opaque;
+    display: block;
+    margin: $size-xxsmall 0;
+}
+
+.border-section {
+    margin-bottom: $size-xxsmall;
+    border-top: 1px solid $border-secion-color;
+}
+
+.labeled-input {
+    display: flex;
+    flex: row;
+    align-items: center;
+
+    input {
+        width: 150px;
+    }
+
+    .qux-select{
+        width:100px;
+    }
+}
+
+.radio-sub-list {
+    margin-left: $size-small;
+}

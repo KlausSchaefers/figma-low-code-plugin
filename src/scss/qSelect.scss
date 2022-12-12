@@ -1,0 +1,67 @@
+
+.qux-select {
+  position: relative;
+  border: 1px solid transparent;
+  height: 30px;
+  width: 100%;
+  margin: 1px 0 1px 0;
+  border-radius: $border-radius-small;
+  background-color: $white;
+
+  &:hover {
+      border-color: $black1;
+  }
+
+  &:focus {
+      border: 1px solid $blue;
+      outline: 1px solid $blue;
+      outline-offset: -2px;
+  }
+
+  .qux-select-button {
+    background: none;
+    border:none;
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    color: $black8;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    .carret {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        margin-top: -1px;
+        margin-left: -16px;
+        background-image: url('data:image/svg+xml;utf8,%3Csvg%20fill%3D%22none%22%20height%3D%2230%22%20viewBox%3D%220%200%2030%2030%22%20width%3D%2230%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20clip-rule%3D%22evenodd%22%20d%3D%22m15%2016.7071-3-3%20.7071-.7071%202.6465%202.6464%202.6464-2.6464.7071.7071-3%203-.3535.3536z%22%20fill%3D%22%23000%22%20fill-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E');
+        background-repeat: no-repeat;
+        background-position: center center;
+        opacity: 0;
+        right: 5px;
+        transition: all 0.2s;
+    }
+
+    &:hover .carret {
+        opacity: 0.3;
+        right:0px
+    }
+
+    .qux-select-button-label {
+        padding: 4px $size-xsmall 0px $size-xxsmall;
+        display: inline-block;
+        font-size: $font-size-xsmall;
+        font-weight: $font-weight-normal;
+        letter-spacing: $font-letter-spacing-neg-xsmall;
+        line-height: $line-height;
+        color: $black8;
+        margin-right: 6px;
+        margin-top: -2px;
+        white-space: nowrap;
+        overflow-x: hidden;
+        text-overflow: ellipsis;
+    }
+  }
+}

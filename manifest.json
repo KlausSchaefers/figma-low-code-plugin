@@ -1,0 +1,8 @@
+{
+  "name": "Figma-Low-Code",
+  "id": "858477504263032980",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "dist/ui.html",
+  "editorType": ["figma"]
+}

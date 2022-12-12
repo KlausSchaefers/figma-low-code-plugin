@@ -1,0 +1,32 @@
+.help-title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 16px;
+  color: $black8-opaque;
+  padding: 8px;
+}
+
+.help-content {
+  padding-left: 22px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.005em;
+  color: $black8-opaque;
+}
+
+.qux-help-content {
+  padding: 0 $size-xxxsmall 0 $size-xxsmall;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.005em;
+  color: $black8-opaque;
+  margin-bottom: $size-xsmall;
+}
